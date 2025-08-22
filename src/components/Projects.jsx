@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion';
+import DigitalClock from '/public/projects/Digital-clock.png';
+import ToDoList from '/public/projects/to-do-list.png';
+import Ecommerce from '/public/projects/ecommerce.png';
 
 const fadeInUp = {
     initial: { opacity: 0, y: 20 },
@@ -45,7 +48,7 @@ export const Projects = () => {
                 whileHover={{ y:-10,transition:{duration:0.3} }}>
 
                     <motion.div className='project-image'
-                    style={{ backgroundImage: "url('/projects/Digital-clock.png')" }}
+                    style={{ backgroundImage: `url('${DigitalClock}')` }}
                     whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
                         <h3>Digital Clock</h3>
                         <p>A simple digital clock using javascript and the ui is quite good of it.</p>
@@ -63,7 +66,7 @@ export const Projects = () => {
                 whileHover={{ y:-10,transition:{duration:0.3} }}>
 
                     <motion.div className='project-image'
-                    style={{ backgroundImage: "url('/projects/to-do-list.png')" }}
+                    style={{ backgroundImage: `url('${ToDoList}')` }}
                     whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
                         <h3>To Do List</h3>
                         <p>A simple and intuitive to-do list application built with React, featuring a clean UI and local storage support.</p>
@@ -80,7 +83,7 @@ export const Projects = () => {
                 whileHover={{ y:-10,transition:{duration:0.3} }}>
 
                     <motion.div className='project-image'
-                    style={{ backgroundImage: "url('/projects/ecommerce.png')" }}
+                    style={{ backgroundImage: `url('${Ecommerce}')` }}
                     whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
                         <h3>E Commerce Website</h3>
                         <p>ShopEasy: A modern e-commerce app with React, Vite, Tailwind CSS, featuring intuitive navigation, product displays, and seamless checkout.</p>
