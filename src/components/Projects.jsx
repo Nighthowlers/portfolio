@@ -45,7 +45,7 @@ export const Projects = () => {
                 whileHover={{ y:-10,transition:{duration:0.3} }}>
 
                     <motion.div className='project-image'
-                    style={{ backgroundImage: "url('/projects/Digital clock.png')" }}
+                    style={{ backgroundImage: "url('./public/projects/Digital-clock.png')" }}
                     whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
                         <h3>Digital Clock</h3>
                         <p>A simple digital clock using javascript and the ui is quite good of it.</p>
@@ -63,7 +63,7 @@ export const Projects = () => {
                 whileHover={{ y:-10,transition:{duration:0.3} }}>
 
                     <motion.div className='project-image'
-                    style={{ backgroundImage: "url('/projects/to-do list.png')" }}
+                    style={{ backgroundImage: "url('./public/projects/to-do-list.png')" }}
                     whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
                         <h3>To Do List</h3>
                         <p>A simple and intuitive to-do list application built with React, featuring a clean UI and local storage support.</p>
@@ -80,7 +80,7 @@ export const Projects = () => {
                 whileHover={{ y:-10,transition:{duration:0.3} }}>
 
                     <motion.div className='project-image'
-                    style={{ backgroundImage: "url('/projects/ecommerce.png')" }}
+                    style={{ backgroundImage: "url('./public/projects/ecommerce.png')" }}
                     whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}/>
                         <h3>E Commerce Website</h3>
                         <p>ShopEasy: A modern e-commerce app with React, Vite, Tailwind CSS, featuring intuitive navigation, product displays, and seamless checkout.</p>
