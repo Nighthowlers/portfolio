@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import DigitalClock from '/public/projects/Digital-clock.png';
+import DigitalClock from '/public/projects/Digital-Clock.png';
 import ToDoList from '/public/projects/to-do-list.png';
 import Ecommerce from '/public/projects/ecommerce.png';
 
