@@ -284,6 +284,15 @@ cta-secondary {
     display: none;
   }
 }
+/* @media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+  }
+} */
 /* Projects Section */
 
 .projects {
